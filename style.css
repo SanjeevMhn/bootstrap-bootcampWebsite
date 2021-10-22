@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+}
+body::before{
+    content: "";
+    display: block;
+    height: 60px;
+}
+#map{
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.goTop{
+    top:0;
+    right: 0;
+    z-index: 100;
+}
+@media (min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
